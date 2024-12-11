@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(
+    180deg,
+    rgb(60, 132, 60),
+    rgb(118, 103, 103)
+  );
+  height: 100vh;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#container {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 350px;
+  height: 500px;
+  margin: 100px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#visor {
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+  height: 40px;
+  text-align: right;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#botoes {
+  /* border: 1px solid red; */
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.botao {
+  background-color: brown;
+  width: 70px;
+  height: 70px;
+  margin: 3px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.botao:hover {
+  background-color: rgb(148, 78, 78);
+}
